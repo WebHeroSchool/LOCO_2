@@ -80,6 +80,7 @@ body {
   position: absolute;
   padding-left:328px;
   padding-top:205px;
+  width: 465px;
 }
 
 .black {
@@ -99,10 +100,11 @@ body {
 .header__vector {
   color: #000;
   text-decoration:none;
+  font: 500 13px/0 "montserratregular", arial, helvetica, sans-serif;
 }
 
 .header__title {
-  font: 700 80px/82px "montserratregular", arial, helvetica, sans-serif;
+  font: bold 80px/82px "montserratbold";
   margin-bottom: 26px;
 }
 .header__paragraph  {
@@ -121,13 +123,13 @@ body {
   text-decoration:none;
 }
 
-.header__vector {
-  font: 500 13px/0 "montserratregular", arial, helvetica, sans-serif;
+.main {
+  height: 1800px;
 }
 
-.main {
-  background-color: #FAE8E4;
+.main1 {
   height: 900px;
+  background-color: #FAE8E4;
 }
 
 .main__block {
@@ -164,7 +166,7 @@ body {
 }
 
 .main__price {
-  font: 700 40px/56px "montserratregular", arial, helvetica, sans-serif;
+  font: bold 40px/56px "montserratbold", arial, helvetica, sans-serif;
   padding-left: 69px;
   margin-top: 0;
 }
@@ -199,14 +201,41 @@ body {
   position: relative;
   top: 83px;
 }
-.main__section_img1{
+
+.main__section_img1 {
   position: relative;
   left: 137px;
   bottom: 230px;
 }
 
-.main__section_img2{
+.main__section_img2 {
   position: relative;
   right: 178px;
   top: 1px;
+}
+
+.main2__div {
+  width: 388px;
+  height: 900px;
+  float: left;
+  background-color: #EBE3D8;
+}
+
+.main2__div1 {
+  width: 73px;
+  height: 900px;
+  float: left;
+  background-color: #000;
+}
+
+.main2__div3 {
+  width: 979px;
+  height: 900px;
+  float: left;
+  background-color: #EBE3D8;
+}
+
+.main2__section_img {
+  position: absolute;
+  margin: 132px 0 0 95px;
 }
