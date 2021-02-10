@@ -239,3 +239,56 @@ body {
   position: absolute;
   margin: 132px 0 0 95px;
 }
+
+.main__block2 {
+  background-color: #FAE8E4;
+  width: 475px;
+  position: relative;
+  left: 363px;
+  top: 255px;
+}
+
+.main__block2_title {
+  font: bold 40px/41px "montserratregular", arial, helvetica, sans-serif;
+  padding: 34px 0 17px 47px;
+  margin:0;
+}
+
+.main__block2_subtitel {
+  font: 700 16px/17px "montserratregular", arial, helvetica, sans-serif;
+  padding-left: 47px;
+  margin: 0;
+}
+
+.main__block2_paragraph {
+  font: 400 15px/21px "montserratregular", arial, helvetica, sans-serif;
+  margin: 35px 57px 56px 50px;
+}
+
+.main2__button1 {
+ display:inline-block;
+ font: 500 15px/0 "montserratregular", arial, helvetica, sans-serif;
+ color: black;
+ border: 2px solid black;
+ color: #000;
+ padding: 21px 36px;
+ text-decoration:none;
+ margin: 0 15px 30px 47px;
+}
+
+.main2__button {
+ font: 500 13px/0 "montserratregular", arial, helvetica, sans-serif;
+ color: black;
+ border: 2px solid black;
+ color: #000;
+ padding: 14px 46px;
+ text-decoration:none;
+}
+
+.main__vector1 {
+  color: #000;
+  text-decoration:none;
+  position: relative;
+  top: 47px;
+  left: 130px;
+}
