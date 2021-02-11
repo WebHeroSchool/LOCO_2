@@ -3,16 +3,20 @@
 }
 
 body {
-  width: 1440px;
+  width: 100%;
   margin: auto;
 }
 
-.header {
-  height: 900px;
+.black {
+  width: 32%;
+  float: left;
+  background: black;
 }
 
-.logo, .header__dropdown  {
-  display: inline-block;
+.white {
+  width: 68%;
+  float: left;
+  background: white;
 }
 
 .logo {
@@ -22,25 +26,15 @@ body {
   font: 500 30px/37px "montserratregular", arial, helvetica, sans-serif;
 }
 
-.header__dropdown_img {
-  margin-left: 238px;
-  font: 500 20px/24px "montserratregular", arial, helvetica, sans-serif;
-  color: #FFF;
-  text-decoration:none;
+.section__dropdown_img {
+ margin-left: 241px;
+ font: 500 20px/24px "montserratregular", arial, helvetica, sans-serif;
+ color: #FFF;
+ text-decoration:none;
 }
 
-.social-icons {
-  margin-top:745px;
-  padding-left: 52px;
-}
-.social-icons__item {
-  margin-right: 12px;
-}
-
-.header__img {
-  position: absolute;
-  margin-top:745px;
-  padding-left: 709px;
+.logo, .section__dropdown  {
+  display: inline-block;
 }
 
 .menu__btn {
@@ -70,49 +64,38 @@ body {
   margin-left: 0;
 }
 
-.header__black_img {
+.main__black_img {
   position: absolute;
-  padding-left: 190px;
-  padding-top: 100px;
+  padding-left: 188px;
+  padding-top: 97px;
+}
+
+.social-icons {
+  margin-top:745px;
+  margin-bottom: 41px;
+  padding-left: 52px;
+}
+.social-icons__item {
+  margin-right: 12px;
 }
 
 .block {
-  position: absolute;
   padding-left:328px;
-  padding-top:205px;
-  width: 465px;
+  padding-top:190px;
 }
 
-.black {
-  width: 461px;
-  height: 900px;
-  float: left;
-  background-color: black;
+.main__white_title {
+  font: bold 89px/78px "montserratbold", arial, helvetica, sans-serif;
+  margin-bottom: 15px;
 }
 
-.white {
-  width: 979px;
-  height: 900px;
-  float: left;
-  background-color: white;
+.main__white_paragraph  {
+  width: 467px;
+  font: 400 17px/21px "montserratregular", arial, helvetica, sans-serif;
+  margin: 0 0 47px 0;
 }
 
-.header__vector {
-  color: #000;
-  text-decoration:none;
-  font: 500 13px/0 "montserratregular", arial, helvetica, sans-serif;
-}
-
-.header__title {
-  font: bold 80px/82px "montserratbold";
-  margin-bottom: 26px;
-}
-.header__paragraph  {
-  font: 400 15px/21px "montserratregular", arial, helvetica, sans-serif;
-  margin-bottom: 36px;
-}
-
-.header__button {
+.main__white_button {
   font: 500 13px/0 "montserratregular", arial, helvetica, sans-serif;
   padding: 41px 14px 30px 41px
   color: black;
@@ -123,16 +106,39 @@ body {
   text-decoration:none;
 }
 
-.main {
-  height: 1800px;
+.main__white_vector {
+  color: #000;
+  text-decoration:none;
+  font: 500 13px/0 "montserratregular", arial, helvetica, sans-serif;
 }
 
-.main1 {
-  height: 900px;
-  background-color: #FAE8E4;
+.vector__img {
+  margin: 8px 0 0 29px;
 }
 
-.main__block {
+.main__white_img {
+  margin: 169px 0 0 245px;
+}
+
+.pink {
+  width: 100%;
+  float: left;
+  background: #FAE8E4;
+}
+
+.main__pink_img1 {
+  position: relative;
+  left: 137px;
+  bottom: 230px;
+}
+
+.main__pink_img2 {
+  position: relative;
+  right: 180px;
+  top:1px;
+}
+
+.block2 {
   width: 488px;
   height: 556px;
   background-color: white;
@@ -141,19 +147,19 @@ body {
   top: 1068px;
 }
 
-.main__title {
-  font: 700 40px/41px "montserratregular", arial, helvetica, sans-serif;
-  margin: 40px 93px 17px 55px;
+.main__pink_title {
+  font: bold 45px/41px "montserratbold", arial, helvetica, sans-serif;
+  margin: 46px 0 0 55px;
 }
 
 .main__subtitel {
-  font: 700 16px/17px "montserratregular", arial, helvetica, sans-serif;
-  margin: 17px 213px 64px 55px;
+  font: bold 19px/16px "montserratregular", arial, helvetica, sans-serif;
+  margin: 14px 0 75px 55px;
 }
 
 .main__paragraph {
   font: 400 15px/21px "montserratregular", arial, helvetica, sans-serif;
-  margin: 64px 65px 52px 55px;
+  margin: 0 65px 52px 55px;
 }
 .colors-icons, .main__price {
   display: inline-block;
@@ -167,17 +173,16 @@ body {
 
 .main__price {
   font: bold 40px/56px "montserratbold", arial, helvetica, sans-serif;
-  padding-left: 69px;
-  margin-top: 0;
+  margin: 0 0 0 58px;
 }
 
 .colors-icons__item {
-  margin-right: 12px;
+  margin-right: 8px;
 }
 
  .main__button1 {
   display:inline-block;
-  font: 500 15px/0 "montserratregular", arial, helvetica, sans-serif;
+  font: 500 13px/0 "montserratregular", arial, helvetica, sans-serif;
   color: black;
   border: 2px solid black;
   color: #000;
@@ -202,70 +207,57 @@ body {
   top: 83px;
 }
 
-.main__section_img1 {
-  position: relative;
-  left: 137px;
-  bottom: 230px;
-}
-
-.main__section_img2 {
-  position: relative;
-  right: 178px;
-  top: 1px;
-}
-
-.main2__div {
-  width: 388px;
+.light {
+  width: 27%;
   height: 900px;
   float: left;
-  background-color: #EBE3D8;
+  background: #EBE3D8;
 }
 
-.main2__div1 {
-  width: 73px;
+.dark {
+  width: 5%;
   height: 900px;
   float: left;
-  background-color: #000;
+  background: black;
 }
 
-.main2__div3 {
-  width: 979px;
-  height: 900px;
-  float: left;
-  background-color: #EBE3D8;
-}
-
-.main2__section_img {
+.dark__img {
   position: absolute;
-  margin: 132px 0 0 95px;
+  margin: 185px 0 0 90px;
+}
+.light2 {
+  width: 68%;
+  height: 900px;
+  float: left;
+  background: #EBE3D8;
 }
 
-.main__block2 {
+.block3 {
   background-color: #FAE8E4;
   width: 475px;
   position: relative;
-  left: 363px;
-  top: 255px;
+  left: 355px;
+  top: 299px;
 }
 
-.main__block2_title {
-  font: bold 40px/41px "montserratregular", arial, helvetica, sans-serif;
-  padding: 34px 0 17px 47px;
+.main__light2_title {
+  font: bold 40px/41px "montserratbold", arial, helvetica, sans-serif;
+  padding: 40px 0 0 47px;
   margin:0;
 }
 
-.main__block2_subtitel {
-  font: 700 16px/17px "montserratregular", arial, helvetica, sans-serif;
-  padding-left: 47px;
+.main__light2_subtitel {
+  font: bold 19px/16px "montserratbold", arial, helvetica, sans-serif;
+  padding: 13px 0 0 47px;
   margin: 0;
 }
 
-.main__block2_paragraph {
-  font: 400 15px/21px "montserratregular", arial, helvetica, sans-serif;
-  margin: 35px 57px 56px 50px;
+.main__light2_paragraph {
+  font: normal 15px/21px "montserratregular", arial, helvetica, sans-serif;
+  margin: 35px 57px 54px 50px;
 }
 
-.main2__button1 {
+.main__light2_button1 {
  display:inline-block;
  font: 500 15px/0 "montserratregular", arial, helvetica, sans-serif;
  color: black;
@@ -276,7 +268,7 @@ body {
  margin: 0 15px 30px 47px;
 }
 
-.main2__button {
+.main__light2_button {
  font: 500 13px/0 "montserratregular", arial, helvetica, sans-serif;
  color: black;
  border: 2px solid black;
@@ -285,10 +277,11 @@ body {
  text-decoration:none;
 }
 
-.main__vector1 {
+.main__light2_vector1 {
+  font: 500 13px/16px "montserratregular", arial, helvetica, sans-serif;
   color: #000;
   text-decoration:none;
   position: relative;
-  top: 47px;
+  top: 49px;
   left: 130px;
 }
