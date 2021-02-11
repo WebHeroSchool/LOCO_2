@@ -124,6 +124,7 @@ body {
   width: 100%;
   float: left;
   background: #FAE8E4;
+  height: 900px;
 }
 
 .main__pink_img1 {
@@ -237,7 +238,7 @@ body {
   width: 475px;
   position: relative;
   left: 355px;
-  top: 299px;
+  top: 250px;
 }
 
 .main__light2_title {
@@ -284,4 +285,17 @@ body {
   position: relative;
   top: 49px;
   left: 130px;
+}
+
+.footer {
+  display:flex;
+  position:absolute;
+  top: 2658px;
+  right: 21px;
+}
+.footer__img {
+  margin: 4px 0 0 13px;
+}
+.footer__text {
+  font: bold 13px/0 "montserratbold", arial, helvetica, sans-serif;
 }
