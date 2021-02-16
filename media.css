@@ -160,3 +160,153 @@ margin-left: 15px;
   display: none;
 }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+.header__title {
+  position: absolute;
+  margin: 620px 0 0 285px;
+  font: bold 89px/82px "monsterratbold", arial, helvetica, sans-serif;
+}
+
+.img {
+  top: 0;
+  position: absolute;
+  background:   center no-repeat url(img/main.png);
+  padding:  0 100% 890px 0;
+  background-size: 68%;
+}
+
+
+.main__pink_img1, .main__white_img,
+.header__paragraph, .header__button,
+.header__vector, .social-icons, .main__vector  {
+  display: none;
+}
+.block2 {
+  width: 488px;
+  height: 456px;
+  background-color: white;
+  position: absolute;
+  left: 250px;
+  top: 1320px;
+}
+
+.block3 {
+  top: 2255px;
+  left: 179px;
+
+}
+
+.main__pink_subtitel {
+  font: bold 19px/16px "montserratregular", arial, helvetica, sans-serif;
+  margin: 14px 0 30px 55px;
+}
+
+.main__pink_paragraph {
+  margin: 0 65px 30px 55px;
+}
+
+
+.w {
+background:  left no-repeat url(img/main3.svg);
+padding: 400px 0 310px 0;
+background-size: 95%;
+margin-left: 30px;
+}
+
+.main__vector1 {
+
+  left: 220px;
+}
+
+.main__pink_img2 {
+  position: absolute;
+  left: 0;
+  top:0;}
+
+  .logo {
+    color: black;
+    font: 500 31px/37px "montserratbold", arial, helvetica, sans-serif;
+
+  }
+
+  .header {
+    background: white;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+  .img {
+    top: 50px;
+    position: absolute;
+    background:   center no-repeat url(img/main.png);
+    padding:  0 100% 900px 0;
+    background-size: 70%;
+  }
+  .header__title {
+    position: absolute;
+    margin: 620px 0 0 285px;
+    font: bold 89px/82px "monsterratbold", arial, helvetica, sans-serif;
+  }
+
+  .main__pink_img1, .main__white_img,
+  .header__paragraph, .header__button,
+  .header__vector, .social-icons, .main__vector  {
+    display: none;
+  }
+  .block2 {
+    width: 488px;
+    height: 456px;
+    background-color: white;
+    position: absolute;
+    left: 250px;
+    top: 1320px;
+  }
+
+  .block3 {
+    top: 2255px;
+    left: 179px;
+
+  }
+
+  .main__pink_subtitel {
+    font: bold 19px/16px "montserratregular", arial, helvetica, sans-serif;
+    margin: 14px 0 30px 55px;
+  }
+
+  .main__pink_paragraph {
+    margin: 0 65px 30px 55px;
+  }
+
+
+  .w {
+  background:  left no-repeat url(img/main3.svg);
+  padding: 400px 0 310px 0;
+  background-size: 95%;
+  margin-left: 30px;
+  }
+
+  .main__vector1 {
+
+    left: 220px;
+  }
+
+  .main__pink_img2 {
+    position: absolute;
+    left: 0;
+    top:650px;}
+
+    .logo {
+      color: black;
+      font: 500 31px/37px "montserratbold", arial, helvetica, sans-serif;
+
+    }
+
+    .header {
+      background: white;
+    }
+  }
+
+}
